@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    padding: 5px 150px 20px 200px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/cool2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header{
+    margin: 10px 0 ;
+    width: 100%;
+    height:70px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: relative;
+}
+.header-one{
+    display: flex;
+    height: 40px;
+    width: 10px;
+    
+}
+
+.header-one img{ 
+    width:70px;
+    height:100px
+}
+.logo-name{
+    position: absolute;
+    top:15px;
+    left:40px;
+    font-family:cursive;
+    font-size: 23px;
+    font-weight:900;
+}
+.header-two{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.right-text button{
+    width: 150px;
+    height:35px;
+    margin-top: 20px;
+    margin-left: 355px;
+    background-color:#eb7948;
+    color: white;
+    border:2px solid #eb7948;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.right-image button{
+    border:none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.right-image img{
+    width:40px;
+    height:60px;
+    padding-top: 12px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 16% 30% 1fr;
+    padding-left: 17px;
+    height: 550px;
+    
+}
+.container-one{
+    height:420px;
+}
+.flexing{
+    display: flex;
+    align-items: center;
+    
+}
+.flexing img{
+    width:20px;
+    height:20px;
+    margin-right: 9px;
+    margin-left: 10px;
+    
+}
+.btns button{
+    width: 130px;
+    height: 45px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.content-two{
+    height:450px;
+    width:100%;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 8px ;
+}
+.content-two-1 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.content-two-1 {
+    height: 73%;
+}
+.content-two-2{
+    position: absolute;
+    height: 27%;
+    bottom: 50px;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 0 0 9px 9px;
+}
+.content-two-2 h2{
+ text-align: center;
+ padding: 3px 0;
+}
+.content-two-2 p{
+    color: rgba(175, 171, 171, 0.938);
+    font-size: 14px !important;
+    text-align: center;
+
+}
+.social-media{
+    display: flex;
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.social-media img{
+    width: 35px;
+    height:35px;
+    margin-right: 10px;
+}
+.content-three{
+    height:92%;
+    width:80%;
+line-height: 1.3!important;
+    margin-left: 10px;
+    border-radius: 8px;
+    border:1px solid rgba(0, 0, 0, 0.295);
+    text-align: left;
+    padding: 30px 30px;
+    overflow-y: auto;
+    background-color: #fff;
+
+
+}
+.content-three h4{
+    color:#eb7948;
+}
+.content-three p,.content-three h1{
+    padding: 10px 0;
+}
+.content-three h1{
+    font-family:sans-serif;
+}
+.content3 button{
+    width: 130px;
+    height:35px;
+    color: white;
+    background-color: #e76a35;
+    border:1px solid #eb7948;
+    border-radius: 4px;
+    margin-top:13px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.unique{
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 14px;
+    line-height: 1.6;
+}
+.red{
+    margin-top: 20px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: #e76a35;
+    color: #fff;
+    font-size: 13px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    padding: 0 10px 5px 23px;
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 13px;
+}
+.footer2 ul{
+    display: flex;
+}
+.footer2 li{
+    list-style: none;
+    
+    margin-left: 25px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer2{
+    padding-left: 21px;
+}
+.footer1 img{
+    
+    width: 20px;
+    height:20px;
+    
+}
+#btn-1 {
+    background-color:#eb7948 !important ;
+    color:#fff !important;
+}
+.lastly{
+    width: 250px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: -3px 4px 17px 0px #00000033;
+    border-radius: 35px;
+}
+.lastly img{
+    width: 150px !important;
+    height:150px !important;
+}
+.thirdone img{
+     
+    width: 150px;
+    height:150px;
+}
+.bye{
+    padding-top:20px;
+}
+.bye h4{
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.bye3{
+    color:rgba(0, 0, 0, 0.514)
+}

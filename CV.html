@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="CV.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <div class="header-one">
+                <div class="logo">
+                    <img src="images/apple.png" alt="">
+                </div>
+                <div class="logo-name">
+                    <h3>Apple</h3>
+                </div>
+            </div>
+            <div class="header-two">
+                <div class="right-text">
+                    <button>DOWNLOAD CV</button>
+                </div>
+                <div class="right-image">
+                    <button><img src="images/list-items.png" alt=""></button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="content">
+            <div class="content-one" id="contentone">
+                <div class="btns" >
+                    <button class="flexing" id="btn1" id='click1'id='changing' >
+                        <div id='change'><img src="images/about1.png"  alt=""></div>
+                        <div><p>About</p></div>
+                    </button>
+                </div>
+
+                <div class="btns">
+                    <button class="flexing" id="btn2" id='click2'>
+                        <div id='changes'><img src="images/resume.png" alt=""></div>
+                        <div><p>Resume</p></div>
+                    </button>
+                </div>
+
+                <div class="btns">
+                    <button class="flexing" id="btn3" id='click3'>
+                        <div ><img src="images/briefcase.png" alt=""></div>
+                        <div><p>Portfolio</p></div>
+                    </button>
+                </div>
+
+                <div class="btns">
+                    <button class="flexing" id="btn4" id='click4'>
+                        <div ><img src="images/settings.png" alt=""></div>
+                        <div><p>Services</p></div>
+                    </button>
+                </div>
+
+                <div class="btns">
+                    <button class="flexing" id="btn5" id='click5'>
+                        <div ><img src="images/review1.png" alt=""></div>
+                        <div><p>Testimoniol</p></div>
+                    </button>
+                </div>
+
+                <div class="btns">
+                    <button class="flexing" id="btn6" id='click6'>
+                        <div ><img src="images/blogging.png" alt=""></div>
+                        <div><p>Blog</p></div>
+                    </button>
+                </div>
+
+                <div class="btns">
+                    <button class="flexing" id="btn7" id='click7'>
+                        <div ><img src="images/email.png" alt=""></div>
+                        <div><p>Contact</p></div>
+                    </button>
+                </div>
+
+            </div>
+            <div class="content-two" >
+                <div class="content-two-1">
+                    <img src="images/woman33.jpg" alt="">
+                </div>
+                <div class="content-two-2">
+                    <h2>Sarah Jessica</h2>
+                    <p>Senior UL/UX Designer</p>
+                    <div class="social-media">
+                        <img src="images/facebook-logo.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                        <img src="images/linked-in-logo-of-two-letters.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="content-three" id="thirdone">
+              <img src="images/applelogo.png" class="lastly" alt="">
+          
+            </div>
+
+        </div>
+       </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <p>Designed with love <span><img src="images/copyright.png" alt=""></span>Marketify</p>
+
+        </div>
+        <div class="footer2">
+            <ul>
+                <li> <a href="#">Terms and conditions</a> </li>
+                <li> <a href="#">Privacy policy</a> </li>
+                <li> <a href="#">log out</a></li>
+            </ul>
+        </div>
+      
+
+    </div>
+    <script>
+        const container=document.getElementById('container');
+        const contentone=document.getElementById('contentone');
+        let btn1=document.getElementById('btn1');
+     
+        let btn2=document.getElementById('btn2');
+        let btn3=document.getElementById('btn3');
+        let btn4=document.getElementById('btn4');
+        let btn5=document.getElementById('btn5');
+        let btn6=document.getElementById('btn6');
+        let btn7=document.getElementById('btn7');
+        let click1=document.getElementById('click1');
+        let click2=document.getElementById('click2');
+        let click3=document.getElementById('click3');
+        let click4=document.getElementById('click4');
+        let click5=document.getElementById('click5');
+        let click6=document.getElementById('click6');
+        let click7=document.getElementById('click7');
+        let flexing=document.getElementsByClassName('flexing');
+        click1=1;  
+         click4=4;
+            click5=5; 
+              click6=6;   click7=7;
+        click2=2;
+        click3=3;
+
+        const btnss=[1,2,3,4,5,6,7];
+        click=['btn1','btn2','btn3','btn4','btn5','btn6','btn7'];
+        const thirdone=document.getElementById('thirdone');
+        const change= document.getElementById('change');
+        const changes= document.getElementById('changes');
+        const changing=document.getElementById('changing');
+if (click1=btnss[0] ) {
+    btn1.addEventListener('click',function(){
+        thirdone.innerHTML=`
+        <h4>About me</h4>
+                <h1>
+                    World leading UI/UX 
+                    designer
+                </h1>
+                <div>
+                <p>
+                    Phaelius seiusmod tempor incidi rednt ut labore
+                    et dolore magna aliquid
+                </p>
+                    <div class="content3">
+                
+                <p class="unique">
+                    Information is processed, organised and structured data. 
+                    It provides context for data and enables decision making process 
+                    For example, a single customer’s sale at a restaurant is data. 
+                    
+                </p>
+                <button>DOWNLOAD CV</button>
+                <div class="red">
+                    <p>Name<br>
+                    Izere Frank</p>
+                    <p>DOB<br>
+                    10/1/2015</P>
+                    <p>Nationality<br>
+                    Burundian</p>
+                    <P>Residence<br>
+                    Kigali</p>
+                    </div>
+                    `
+                   changing.style.backgroundColor="red";
+
+                   
+        
+    })
+    
+}
+
+if (click2=btnss[1] ) {
+    btn2.addEventListener('click',function(){
+        thirdone.innerHTML =`
+        <h4>Short note about me</h4>
+                <h1>
+                  Hard working woman
+                </h1>
+                <div>
+                <p>
+                    Phaelius seiusmod tempor incidi rednt ut labore
+                    et dolore magna aliquid
+                </p>
+                    <div class="content3">
+                <br>
+                <br>
+                <p class="unique">
+                    Information is processed, organised and structured data. 
+                    It provides context for data and enables decision making process 
+                    For example, a single customer’s sale at a restaurant is data. 
+                    
+                </p>`;
+                
+               
+                 
+        
+    })
+    
+}
+
+if (click3=btnss[2] ) {
+    btn3.addEventListener('click',function(){
+        thirdone.innerHTML =`
+        <h4>Selling apple product</h4>
+        <div class="bye3">
+        <p>
+            Apple TV
+Exclusively on Apple TV+. Watch here and on the Apple TV app across your devices. Start Free Trial. 7 days free, then $4.99/month.
+</p>
+<p>
+    Apple watch The new Retina display on Apple Watch Series 7 has nearly 20 percent more screen area than Series 6. Improved Durability. Most crack-resistant front crystal.
+US$749.00 to US$1,759.00
+    </p>
+     <p>
+        The new Retina display on Apple Watch Series 7 has nearly 20 percent more screen area than Series 6. Improved Durability. Most crack-resistant front crystal.
+US$749.00 to US$1,759.00
+        </p>
+        <p>
+        The new Retina display on Apple Watch Series 7 has nearly 20 percent more screen area than Series 6. Improved Durability. Most crack-resistant front crystal.
+US$749.00 to US$1,759.00
+        </p>
+        <p>
+        The new Retina display on Apple Watch Series 7 has nearly 20 percent more screen area than Series 6. Improved Durability. Most crack-resistant front crystal.
+US$749.00 to US$1,759.00
+        </p>
+        <p>
+        The new Retina display on Apple Watch Series 7 has nearly 20 percent more screen area than Series 6. Improved Durability. Most crack-resistant front crystal.
+US$749.00 to US$1,759.00
+        </p>
+        </div>
+
+        
+
+      `    
+      
+    })
+    
+
+}
+
+if (click4=btnss[3] ) {
+    btn4.addEventListener('click',function(){
+        thirdone.innerHTML =`
+        <h4>Short note about me</h4>
+                <h1>
+                  What I do for living....
+                </h1>
+                <video controls>
+            <source src="Screen Recording 5782-05-22 at 12.51.36 PM">
+        </video>`;    
+    })
+    
+
+}
+
+if (click5=btnss[4] ) {
+    btn5.addEventListener('click',function(){
+        thirdone.innerHTML =`
+        <h4>About me</h4>
+                <h1>
+                    World leading UI/UX 
+                    designer
+                </h1>
+                <div>
+                <p>
+                    Phaelius seiusmod tempor incidi rednt ut labore
+                    et dolore magna aliquid
+                </p>
+                    <div class="content3">
+                
+                <p class="unique">
+                    Information is processed, organised and structured data. 
+                    It provides context for data and enables decision making process 
+                    For example, a single customer’s sale at a restaurant is data. 
+                    
+                </p>
+        ` 
+    })
+    
+
+}
+
+if (click6=btnss[5] ) {
+    btn6.addEventListener('click',function(){
+        thirdone.innerHTML =`
+        <h4>Short note about me</h4>
+                <h1>
+                  What I do for living....
+                </h1>
+                <video controls>
+            <source src="Screen Recording 5782-05-22 at 12.51.36 PM">
+        </video>`;    
+    })
+    
+
+}
+
+if (click7=btnss[6] ) {
+    btn7.addEventListener('click',function(){
+        thirdone.innerHTML =`
+        <h4>For more information</h4>
+        <div class="bye">
+        <h4>contact us on the following</h4>
+        <p>
+            Mobile:+250 788879603
+            </p>
+
+            <p>
+            Whatsapp:+250 785808822
+            </p>
+
+            <p>
+            Instgram: paaccy
+            </p>
+            <p>
+            E-mail:paacccy@gmail.com
+            </p>
+            </div> `;
+          
+
+           
+          
+    })
+   
+
+}
+
+    </script>
+</body>
+</html>
